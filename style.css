@@ -30,7 +30,7 @@ body{
     #tweet-button{
         position: fixed;
         right: 20px;
-        bottom: 30px;
+        top: 30px;
     }
 }
 
