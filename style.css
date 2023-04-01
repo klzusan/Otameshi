@@ -1,0 +1,62 @@
+
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left center;
+}
+
+@media screen and (min-width: 768px){/*for PC*/
+    body{
+        background-image: url("static/images/background_PC.png");
+    }
+
+    #randomImage {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        display: none;
+        height: 100vh;
+    }
+
+    #action-button{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit-transform: translateY(-50%) translateX(-50%);
+    }
+
+    #tweet-button{
+        position: fixed;
+        right: 20px;
+        top: 50%;
+    }
+}
+
+@media screen and (max-width: 767px){/*for mobile*/
+    body{
+        background-image: url("static/images/background_mobile.png");
+    }
+
+    #randomImage {
+        display: none;
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    #action-button{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) translateX(-60%);
+        -webkit-transform: translateY(-50%) translateX(-60%);
+    }
+
+    #tweet-button{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-60%);
+        -webkit-transform: translateX(-60%);
+    }
+}
