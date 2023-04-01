@@ -30,7 +30,7 @@ body{
     #tweet-button{
         position: fixed;
         right: 20px;
-        top: 50%;
+        bottom: 30px;
     }
 }
 
@@ -56,7 +56,8 @@ body{
     #tweet-button{
         position: absolute;
         left: 50%;
-        transform: translateX(-60%);
-        -webkit-transform: translateX(-60%);
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        white-space: nowrap;
     }
 }
