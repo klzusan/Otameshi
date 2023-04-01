@@ -5,7 +5,7 @@ body{
     background-position: left center;
 }
 
-@media screen and (min-width: 768px){/*for PC*/
+@media screen and (min-width: 1025px){/*for PC*/
     body{
         background-image: url("static/images/background_PC.png");
     }
@@ -34,7 +34,7 @@ body{
     }
 }
 
-@media screen and (max-width: 767px){/*for mobile*/
+@media screen and (max-width: 1024px){/*for mobile*/
     body{
         background-image: url("static/images/background_mobile.png");
     }
